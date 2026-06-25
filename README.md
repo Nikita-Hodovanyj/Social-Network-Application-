@@ -8,7 +8,6 @@
 ##### Під час роботи над проєктом учасники отримали досвід у:
 
 - розробці клієнт-серверної архітектури;
-- створенні REST API;
 - роботі з PostgreSQL;
 - реалізації JWT авторизації;
 - створенні системи чатів;
@@ -16,9 +15,9 @@
 - використанні Git та GitHub для командної роботи.
 ---
 ## 2. Склад команди
-- Бояркіна Орина(TEAMLEAD)/Boiarkina Oryna(TEAMLEAD) - [GitHub](https://github.com/BoiarkinaOryna)
-- Нікіта Годований/Nikita Hodovanyj - [GitHub](https://github.com/Nikita-Hodovanyj)
-- Віктор Пілат/Viktor Pilat - [GitHub](https://share.google/rNlSyuG4w39NmbfpA)
+- Бояркіна Орина(TEAMLEAD)/Boiarkina Oryna(TEAMLEAD) - [GitHub](https://github.com/BoiarkinaOryna/SocailMedia)
+- Нікіта Годований/Nikita Hodovanyj - [GitHub](https://github.com/Nikita-Hodovanyj/Social-Network-Application-)
+- Віктор Пілат/Viktor Pilat - [GitHub](https://github.com/VictorPilat/Social-Network-Application)
 ---
 ## 3. Зміст
 1. [Мета створення проєкту](#1-мета-створення-проєкту)
@@ -74,7 +73,7 @@ cd SocailMedia
 ## Встановлення залежностей Frontend та запуск
 ```bash
 cd frontend
-npx i
+npx expo install
 npx expo start
 ```
 
@@ -83,7 +82,7 @@ npx expo start
 ```bash
 cd backend
 npx i
-npm run dev
+npm run start
 ```
 
 ## Налаштування бази даних
@@ -152,7 +151,7 @@ frontend
 * створення постів
 * перегляд стрічки
 * взаємодія з контентом
-## Чати (WebSocket)
+## Чати
 * повідомлення в реальному часі
 * приватні чати
 * групові чати
@@ -173,11 +172,11 @@ frontend
 * командній розробці через GitHub.
 
 
-У майбутньому проєкт може бути розширений шляхом додавання:
-
-* push-повідомлень;
+## У майбутньому проєкт може бути розширений шляхом додавання:
+* темної/світлої теми інтерфейсу;
 * відеодзвінками;
-* масштабуванням WebSocket серверу;
+* документація api
+* поглиблення персоналізації постів
 * мобільним релізом у App Store та Google Play.
 
 
